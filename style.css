@@ -1,0 +1,35 @@
+ body{
+     background-color: darkseagreen;
+     color: white;
+     font-size: 18px;
+ }
+
+h1 {
+    font-size: 15px;
+    color: #3747b3;
+}
+
+p {
+   color: #2f4c5c;
+}
+/* the css box model */
+
+/*
+    Margin:
+    Border:
+    Padding:
+*/
+
+.box {
+    background: turquoise;
+    width: 250px;
+    margin: 10px;
+    border-left-width: 5px;
+    border-left-color: yellow ;
+    border-inline-start-style:solid ;
+
+    border-right-color: tomato;
+    border-right-width: 10px;
+    border-right-style: solid;
+     
+}
